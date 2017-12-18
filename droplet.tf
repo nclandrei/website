@@ -4,6 +4,7 @@ variable "user" 				{}
 variable "hostname" 			{}
 variable "region"               {}
 variable "size"					{}
+variable "pvt_key"				{}
 
 # Set digitalocean as provider
 provider "digitalocean" {
@@ -40,6 +41,13 @@ resource "digitalocean_droplet" "nclandrei" {
 			"chown -R ${var.user}:sudo /home/${var.user}/.ssh",
 		]
 	}
+
+	connection {
+    	user = "root"
+    	type = "ssh"
+    	private_key = "${file(var.pvt_key)}"
+    	timeout = "2m"
+  	}
 }
 
 # Configure domain name on droplet
@@ -63,5 +71,3 @@ output "hostname" {
 output "ip" {
 	value = "${digitalocean_droplet.nclandrei.ipv4_address}"
 }
-
-
