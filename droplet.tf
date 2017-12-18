@@ -1,12 +1,9 @@
 variable "do_token" 			{}
-variable "pub_key" 				{}
-variable "pvt_key" 				{}
 variable "ssh_fingerprint" 		{}
 variable "user" 				{}
 variable "hostname" 			{}
 variable "region"               {}
 variable "size"					{}
-variable "authorized_keys_file" {}
 
 # Set digitalocean as provider
 provider "digitalocean" {
@@ -43,17 +40,12 @@ resource "digitalocean_droplet" "nclandrei" {
 			"chown -R ${var.user}:sudo /home/${var.user}/.ssh",
 		]
 	}
-
-	provisioner "file" {
-		source      = "${var.authorized_keys_file}"
-		destination = "/home/${var.user}/.ssh/authorized_keys"
-	}
 }
 
 # Configure domain name on droplet
 resource "digitalocean_domain" "default" {
 	name = "nclandrei.com"
-	ip = "${digitalocean_droplet.nclandrei.ipv4_address}"
+	ip_address = "${digitalocean_droplet.nclandrei.ipv4_address}"
 }
 
 # Redirect www.nclandrei.com to nclandrei.com
