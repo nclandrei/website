@@ -10,7 +10,7 @@ then
 fi
 
 default_private_key_file="$HOME/.ssh/id_rsa"
-read -p "Path to your SSH key [${default_private_key_file}]: " private_key_file
+read -p "Path to your private SSH key [${default_private_key_file}]: " private_key_file
 private_key_file=${private_key_file:-$default_private_key_file}
 if [ ! -f $private_key_file ]
 then
@@ -34,6 +34,7 @@ authorized_keysfile="authorized_keys"
 cat >$vars_file <<EOF
 do_token             = "$do_token"
 ssh_fingerprint      = "$ssh_fingerprint"
+pvt_key				 = "$private_key_file"
 EOF
 
 echo "All done."
