@@ -28,7 +28,7 @@ resource "digitalocean_droplet" "nclandrei" {
 			"wget -nv https://download.opensuse.org/repositories/shells:fish:release:2/Debian_9.0/Release.key -O Release.key >>/root/provisioning.log 2>&1",
 			"apt-key add - < Release.key >>/root/provisioning.log 2>&1",
 			"apt-get update >>/root/provisioning.log 2>&1",
-			"apt-get install -y --force-yes sudo make vim git mercurial mosh fish curl wget unzip htop jq binutils gcc libpcap-dev >>/root/provisioning.log 2>&1",
+			"apt-get install -y --force-yes sudo make vim git mosh fish curl wget unzip htop jq binutils gcc libpcap-dev >>/root/provisioning.log 2>&1",
 
 			"echo installing Go",
 			"wget https://storage.googleapis.com/golang/go1.9.2.linux-amd64.tar.gz >>/root/provisioning.log 2>&1",
@@ -42,13 +42,6 @@ resource "digitalocean_droplet" "nclandrei" {
 			"chown -R ${var.user}:sudo /home/${var.user}/.ssh",
 		]
 	}
-
-	connection {
-    	user = "root"
-    	type = "ssh"
-    	private_key = "${file(var.pvt_key)}"
-    	timeout = "2m"
-  }
 }
 
 # Configure domain name on droplet
