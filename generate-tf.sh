@@ -34,10 +34,6 @@ authorized_keysfile="authorized_keys"
 cat >$vars_file <<EOF
 do_token             = "$do_token"
 ssh_fingerprint      = "$ssh_fingerprint"
-authorizedkeys_file = "$authorizedkeys_file"
 EOF
 
-cp $public_key_file $authorized_keys_file
-
-echo ; cat $vars_file
-echo ; cat $authorized_keys_file
+echo "All done."
