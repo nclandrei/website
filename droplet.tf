@@ -30,15 +30,20 @@ resource "digitalocean_droplet" "nclandrei" {
 			"apt-get install -y --force-yes sudo make vim git mosh fish curl wget unzip htop jq binutils gcc libpcap-dev >>/root/provisioning.log 2>&1",
 
 			"echo installing Go",
-			"wget https://storage.googleapis.com/golang/go1.9.2.linux-amd64.tar.gz >>/root/provisioning.log 2>&1",
-			"tar -C /usr/local -xzf go1.9.2.linux-amd64.tar.gz >>/root/provisioning.log 2>&1",
-			"rm go1.9.2.linux-amd64.tar.gz",
-			
+			"apt-get --assume-yes golang-go",
+
 			"echo setting up user ${var.user}",
 			"sed -i.bak 's/sudo\tALL=(ALL:ALL) ALL/sudo\tALL=(ALL:ALL) NOPASSWD: ALL/g' /etc/sudoers",
 			"adduser --shell /usr/bin/fish --ingroup sudo --disabled-password --gecos '' ${var.user} >>/root/provisioning.log 2>&1",
 			"mkdir -p /home/${var.user}/.ssh",
 			"chown -R ${var.user}:sudo /home/${var.user}/.ssh",
+
+			"echo setting up Go",
+			"set -x GOPATH $HOME",
+
+			"echo running server",
+			"go get -u github.com/nclandrei/nclandrei.com",
+			"go run $GOPATH/src/github.com/nclandrei/nclandrei.com"
 		]
 	}
 

@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+// Basic handler
 func viewHandler(w http.ResponseWriter, r *http.Request) {
 	fmt.Fprintf(w, "<h1>HELLO WORLD!</h1>")
 }
