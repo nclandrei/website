@@ -27,7 +27,7 @@ resource "digitalocean_droplet" "nclandrei" {
 			"wget -nv https://download.opensuse.org/repositories/shells:fish:release:2/Debian_9.0/Release.key -O Release.key >>/root/provisioning.log 2>&1",
 			"apt-key add - < Release.key >>/root/provisioning.log 2>&1",
 			"apt-get update >>/root/provisioning.log 2>&1",
-			"apt-get install -y --force-yes sudo make vim git mosh fish curl wget unzip htop jq binutils gcc libpcap-dev >>/root/provisioning.log 2>&1",
+			"apt-get install -y --force-yes sudo make vim git mosh fish curl nginx wget unzip htop jq binutils gcc libpcap-dev >>/root/provisioning.log 2>&1",
 
 			"echo installing Go",
 			"apt-get --assume-yes golang-go",
