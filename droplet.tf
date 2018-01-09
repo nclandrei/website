@@ -41,6 +41,11 @@ resource "digitalocean_droplet" "nclandrei" {
 			"echo setting up Go",
 			"set -x GOPATH $HOME",
 
+			"echo setting up Hugo",
+			"wget https://github.com/gohugoio/hugo/releases/download/v0.32.3/hugo_0.32.3_Linux-64bit.deb",
+			"dpkg -i hugo*.deb",
+			"rm hugo*",
+
 			"echo running server",
 			"go get -u github.com/nclandrei/nclandrei.com",
 			"go run $GOPATH/src/github.com/nclandrei/nclandrei.com"
