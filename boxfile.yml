@@ -1,0 +1,21 @@
+run.config:
+
+  # use the static engine
+  engine: static
+  engine.config:
+
+    # tell the engine where to serve static assets from
+    rel_dir: public
+
+  # enable file watching for live reload
+  fs_watch: true
+
+  # install hugo
+  extra_steps:
+    - bash ./install.sh
+
+deploy.config:
+
+  # generate site on deploy
+  extra_steps:
+    - hugo
