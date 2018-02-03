@@ -1,0 +1,20 @@
+baseURL = "http://localhost:1313"
+theme = "paperback"
+title = "Andrei Nicolae"
+language-code = "en-use"
+
+[params]
+	# Author name
+	AuthorName = "Andrei-Mihai Nicolae"
+
+	# tagline to show beneath homepage h1
+	# default: undefined
+	Tagline = "Yo"
+
+	# number of posts to show on index
+	# default: 10
+	HomepagePosts = 15
+
+	GithubUsername = "nclandrei"
+
+	TwitterUsername = "anicolae"
