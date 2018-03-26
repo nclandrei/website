@@ -1,5 +1,12 @@
 theme = "coder" # set the theme
 
+languagecode = "en"
+
+paginate = 20
+canonifyurls = true
+baseurl = "http://www.example.com"
+title = "nclandrei"
+
 [params] # theme parameters
     author = "John Doe" # author's name
     info = "Full Stack DevOps and Magician" # author's job title or info
