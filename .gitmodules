@@ -1,6 +1,6 @@
 [submodule "public"]
 	path = public
-	url = https://github.com/nclandrei/nclandrei.github.io
+	url = https://github.com/nclandrei/nclandrei.com
 	branch = master
 [submodule "themes/coder"]
 	path = themes/coder
