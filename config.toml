@@ -9,7 +9,7 @@ title = "nclandrei"
 
 [params] # theme parameters
     author = "Andrei-Mihai Nicolae"
-    info = "Backend and distributed systems developer" 
+    info = "Backend and distributed systems developer. Also a gopher." 
     description = "Andrei-Mihai Nicolae's personal website"
     keywords = "blog,developer,engineer,personal,golang,distributed,backend"
     
