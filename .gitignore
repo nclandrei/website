@@ -1,3 +1,5 @@
+public/
+
 ### VisualStudioCode ###
 .vscode/*
 !.vscode/settings.json
