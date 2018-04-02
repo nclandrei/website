@@ -23,8 +23,8 @@ a gopher studying at University of Glasgow and working on multiple open source r
 Some of the stuff I am most interested in and have the most experience with are backend development, Go, distributed 
 systems, Java, cloud-native apps and systems programming.
 
-I have created this website mainly to contribute back to the awesome world of open source with a main focus on Go, backend development, cloud and distributed systems. Even though I do not have that much experience, I really hope that the blog posts I will be writing will help someone someday 🙂. 
+I have created this website mainly to contribute back to the awesome world of open source with a main focus on Go, backend development, cloud and distributed systems. I really hope that the blog posts I will be writing will help someone someday 🙂. 
 
-If you would like to find out more, please take a look at my [resume](link-to-CV-here).
+If you would like to find out more, please take a look at my [resume](Andrei-Mihai_Nicolae_CV.pdf).
 
 Thanks for reading and I hope you enjoy!
