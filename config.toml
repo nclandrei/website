@@ -22,6 +22,10 @@ title = "nclandrei"
     name = "LinkedIn"
     weight = 3
     url = "https://www.linkedin.com/in/nclandrei"
+[[params.social]]
+    name = "Keybase"
+    weight = 3
+    url = "https://keybase.io/ncland"
 
 # Menu links
 [[menu.main]]
