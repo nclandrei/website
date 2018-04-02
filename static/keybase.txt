@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/ncland
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://nclandrei.com
+  * I am ncland (https://keybase.io/ncland) on keybase.
+  * I have a public key with fingerprint AD58 88B6 38D7 5F16 54C5  0F92 E2E1 72C5 1C46 1A41
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01200b229da0f844ed96fe3f5445d19a5194fa94c58320bf310a7bf9b98a3ce137370a",
+      "fingerprint": "ad5888b638d75f1654c50f92e2e172c51c461a41",
+      "host": "keybase.io",
+      "key_id": "e2e172c51c461a41",
+      "kid": "01011cde97330d94b987fe5557a5dc66ef199dc5d73bd0f07e4db5467a475c2517d50a",
+      "uid": "e1733ff2eaf699e27a504cfec3d39f19",
+      "username": "ncland"
+    },
+    "service": {
+      "hostname": "nclandrei.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1522711781,
+  "expire_in": 157680000,
+  "prev": "39a03b7b7e39605b0b78d241d621a49e78d0f80d6a508d35af0a0f8a02037002",
+  "seqno": 33,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
+
+yMNrAnicbZJ9UBVVGMYvqBiMBmZkc4ciN5BvOPu9e4WCMNIhtdJ0Qsfr7p6zsFy8
+ez9BRmSmURlppgkdtRi0EnBUCo0sUJAEAoTuSMzkBIEhH2JmhVmKoeB0lvKPZtp/
+ds45z/M7z/u+p33hHFOQ3+iIqyMsw5zm52t932vKajs/voOQdVhIWHYQNjT7Q3kQ
+uT1WmwYJCwFICgCZokQoAVVgGARFTkW0yjIMC0lRYkmRUSWRUViBpoCs0iSQeFkV
+ZVGQaAWRNE/zQCLiCVWzZyOXw6XZPRgrQVYQBJmjBcizKsmxGABUkUIUInlKYUmF
+4UiJIbExR3cbDhxOltwoUdPxHl5YZ+P9j/5RbkCSCkQiT9MAigzOw6uIZVleYqHC
+cUglRREqLORpGQIV8IiBMstwvMTwrEKxJA/Z2dzef+4hMUdVKSSpnCgiClMAo6hI
+oSEtYpQhdCOXXdqGsNqu5El2SOyMJ/BevqYgo61GHf85dyEtUdG3YavDpXt0Rc/D
+Rzkej8NtMayeQoehLUCy9V+KVdbsELcRO/KRy63pdsJCYqXi0QwsyVIUT5K8QMYT
+aLtDcyGrZihYnhMA/ox7UD5G0qIEaJmXeUSLHGBlIPMCpBgSchTuoYjwCs8aQA4X
+KUCalVRgDF8CFMDDBBRh1OW064SFpnFOKRsz3Vq2XfJ4XYjY2da6ea7JL8gUMM/f
+eF+moMCQR68utzF4ZslwjtcRf3ryQl3WhZKJL8WukY9vejxrb5y5XjNRtnjvlkX+
+LUe3trbk8JdKr5rOUtz4ZJGFYWo/qciKvjy16eblvsEQJyxKR1VPWzcnxo29ntA/
+EgVjhxvXeNWNC6+ci1neuOtgbFL0UByRVLLsfHXVlRNzs2Oq+Qf1+ppQV9rAc44v
+kO2jI40Vvp8+QM+si16/dcHxtIMrTHVNgnlV2/zR0MP58zL9g2uWneuAZ8diZmbm
+PDjw+5Zb9ug439C64e9rixanPd7QkdJMfX3navgeqWlj70n013VfZ80Usrgt8umG
+yOKmwFQhsunFgP64Zx/G5DqaKw8NpvyqVTq9yWUvOV/tr39yV//U4YTV3X+83fxa
+bkTPD2+U/Fnuf+qFJ65FTn3bORjdnNBdNx1QsP9M0cB8JjWcfvnT8ldSn0pvWfFj
+u9+Hm0LNfht6j9/dPbmy+/7ynN71n/dtD89qOzFQGHinmOh69/l7iUn7ZqZPmr+T
+7z4MZsSjealL0x/rGVpwTNjwTkPXCH/IM+YLux0V8VuZzZaSMdwU4qy+YQ7Qt9tq
+Y4tG7391ILMzYqRjfHddfG9/ftmRNH/T2rh2NeCeUy9buXpfIRXxVsF0/e2f33OW
+Vp5K/qWvWGiPKnXt95n91L2ZA8nDq5y2oGPk0rCKjM8mYnsA6LtY1f3NrWvo4kzf
+m+WLlpRH7Ln0N1eXw30=
+=iz9h
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ncland
+
+==================================================================
