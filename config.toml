@@ -5,7 +5,7 @@ languagecode = "en"
 paginate = 20
 canonifyurls = true
 baseurl = "https://nclandrei.com"
-title = "nclandrei"
+title = "Andrei Nicolae"
 
 [params] # theme parameters
     author = "Andrei-Mihai Nicolae"
