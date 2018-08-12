@@ -6,7 +6,7 @@ slug = "about"
 I am a backend and distributed systems engineer currently based in Glasgow, UK. I am also
 a gopher studying at University of Glasgow and working on multiple open source repositories, some of which are:
 
-* DTSsistant - a Google Assistant app for the inhabitans of my beautiful hometown (Drobeta-Turnu Severin, Romania),
+* [DTSsistant](https://github.com/nclandrei) - a Google Assistant app for the inhabitans of my beautiful hometown (Drobeta-Turnu Severin, Romania),
 	where people can get answers regarding whatever is happening around the city: events, art exhibitions, 
 	interesting trivia about the city or the area etc.; the server is completely built in Go and is hosted on 
 	Google App Engine, while the natural language processing and intent extraction and parsing is done through DialogFlow; 
