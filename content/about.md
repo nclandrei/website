@@ -3,9 +3,11 @@ title = "About me"
 slug = "about"
 +++
 
-I am a backend and distributed systems engineer currently based in Glasgow, UK. I am also
-a gopher studying at University of Glasgow and working on multiple open source repositories, some of which are:
+I am a backend and distributed systems engineer currently based in Malmö, Sweden. This blog will contain various articles about software development, on topics such as systems programming, Go, Rust, cloud development or networking.
 
+I am also working on some open source projects, some of which are:
+
+* [TicketGuru](https://github.com/nclandrei/ticketguru) - a software project management tool that can analyze various issue trackers, such as Jira or Bugzilla; it can parse huge number of tickets, store them in various storage types (e.g. Google Drive, key/value databases, CSV, RDBs), compute statistics, draw graphs based on those statistics;
 * [DTSsistant](https://github.com/nclandrei) - a Google Assistant app for the inhabitans of my beautiful hometown (Drobeta-Turnu Severin, Romania),
 	where people can get answers regarding whatever is happening around the city: events, art exhibitions, 
 	interesting trivia about the city or the area etc.; the server is completely built in Go and is hosted on 
@@ -20,8 +22,8 @@ a gopher studying at University of Glasgow and working on multiple open source r
 * [Palgo](https://github.com/nclandrei/Palgo) - Electron app for visualizing and animating common algorithms such as Dijkstra's
 	algorithm for finding the shortest path between two vertices in a graph.
 
-Some of the stuff I am most interested in and have the most experience with are backend development, Go, distributed 
-systems, Java, systems programming and cloud-native apps.
+Some of the stuff I am most interested in and have the most experience with are backend development, Go, Rust, distributed 
+systems, systems programming and cloud-native apps.
 
 I have created this website mainly to contribute back to the awesome world of open source with a main focus on Go, backend development, cloud and distributed systems. I really hope that the blog posts I will be writing will help someone someday 🙂. 
 
