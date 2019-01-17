@@ -7,3 +7,4 @@ public/
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+.DS_Store
