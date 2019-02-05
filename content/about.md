@@ -1,5 +1,5 @@
 +++
-title = "About me"
+title = "About"
 slug = "about"
 +++
 
@@ -8,11 +8,9 @@ I am a backend and distributed systems engineer currently based in Malmö, Swede
 I am also working on some open source projects, some of which are:
 
 * [TicketGuru](https://github.com/nclandrei/ticketguru) - a software project management tool that can analyze various issue trackers, such as Jira or Bugzilla; it can parse huge number of tickets, store them in various storage types (e.g. Google Drive, key/value databases, CSV, RDBs), compute statistics, draw graphs based on those statistics;
-* [DTSsistant](https://github.com/nclandrei) - a Google Assistant app for the inhabitans of my beautiful hometown (Drobeta-Turnu Severin, Romania),
-	where people can get answers regarding whatever is happening around the city: events, art exhibitions, 
-	interesting trivia about the city or the area etc.; the server is completely built in Go and is hosted on 
-	Google App Engine, while the natural language processing and intent extraction and parsing is done through DialogFlow; 
-	the code for the server will be available on GitHub as soon as it reaches a stable state;
+* [DTSsistant](https://github.com/nclandrei) - a Google Assistant app for the inhabitans of my beautiful hometown (Drobeta-Turnu Severin, Romania), where people can get answers regarding whatever is happening around the city: events, art exhibitions, interesting trivia about the city or the area etc.; the server is completely built in Go and is hosted on 
+Google App Engine, while the natural language processing and intent extraction and parsing is done through DialogFlow; 
+the code for the server will be available on GitHub as soon as it reaches a stable state;
 * [SyncTube](https://github.com/nclandrei/synctube) - command line app that can sync the whole YouTube library of a user and 
 	download everything that was either liked or added to a playlist since the last synchronization; the whole tool was 
 	built in Go;
