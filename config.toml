@@ -1,15 +1,41 @@
-theme = "basics"
+theme = "simple-hugo-theme"
 
 languagecode = "en"
 
-paginate = 20
+paginate = 5
 canonifyurls = true
 baseurl = "https://nclandrei.com"
 title = "Andrei-Mihai Nicolae"
 
 [params] # theme parameters
-    author = "Andrei-Mihai Nicolae"
-    github = "nclandrei"
-    info = "Backend and distributed systems developer. Also a gopher." 
-    description = "Andrei-Mihai Nicolae's personal website"
-    keywords = "blog,developer,engineer,personal,golang,distributed,backend,cloud"
+author = "Andrei-Mihai Nicolae"
+info = "Backend and distributed systems developer. Also a gopher." 
+description = "Andrei-Mihai Nicolae's personal website"
+keywords = "blog,developer,engineer,personal,golang,distributed,backend,cloud"
+
+# Taxonomies
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
+# Menu
+[menu]
+  [[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
+  [[menu.main]]
+    url = "/posts/"
+    name = "Blog"
+    weight = 2
+  [[menu.main]]
+    url = "/about/"
+    name = "About"
+    weight = 3
+  [[menu.footer]]
+    url = "/posts/index.xml"
+    name = "RSS"
+    weight = 1
+
+[permalinks]
+  posts = "/posts/:title/"
