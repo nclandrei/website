@@ -1,4 +1,4 @@
-theme = "coder"
+theme = "basics"
 
 languagecode = "en"
 
@@ -9,30 +9,7 @@ title = "Andrei-Mihai Nicolae"
 
 [params] # theme parameters
     author = "Andrei-Mihai Nicolae"
+    github = "nclandrei"
     info = "Backend and distributed systems developer. Also a gopher." 
     description = "Andrei-Mihai Nicolae's personal website"
     keywords = "blog,developer,engineer,personal,golang,distributed,backend,cloud"
-    
-# Social links
-[[params.social]]
-    name = "Github"
-    weight = 1
-    url = "https://github.com/nclandrei"
-[[params.social]]
-    name = "LinkedIn"
-    weight = 3
-    url = "https://www.linkedin.com/in/nclandrei"
-[[params.social]]
-    name = "Keybase"
-    weight = 3
-    url = "https://keybase.io/ncland"
-
-# Menu links
-[[menu.main]]
-    name = "Blog"
-    weight = 1
-    url  = "/posts/"
-[[menu.main]]
-    name = "About"
-    weight = 2
-    url = "/about/"
