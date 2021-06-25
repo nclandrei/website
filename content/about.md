@@ -3,7 +3,7 @@ title = "About"
 slug = "about"
 +++
 
-I am a backend and distributed systems engineer currently based in Malmö, Sweden. This blog will contain various articles about software development, on topics such as systems programming, Go, Rust, cloud development or networking.
+I am a senior fullstack developer based in Bucharest, Romania. This blog will contain various articles about software development, on topics such as systems programming, cloud-native and web app development, Go, Ruby/RoR, Clojure, cloud development or networking.
 
 I am also working on some open source projects, some of which are:
 
@@ -20,11 +20,7 @@ the code for the server will be available on GitHub as soon as it reaches a stab
 * [Palgo](https://github.com/nclandrei/Palgo) - Electron app for visualizing and animating common algorithms such as Dijkstra's
 	algorithm for finding the shortest path between two vertices in a graph.
 
-Some of the stuff I am most interested in and have the most experience with are backend development, Go, Rust, distributed 
-systems, systems programming and cloud-native apps.
-
-I have created this website mainly to contribute back to the awesome world of open source with a main focus on Go, backend development, cloud and distributed systems. I really hope that the blog posts I will be writing will help someone someday 🙂. 
+Some of the stuff I am most interested in and have the most experience with are backend development, Go, Ruby, RoR, Clojure, Java, distributed 
+systems, systems programming, web-based apps and cloud-native apps.
 
 If you would like to find out more, please take a look at my [resume](Andrei-Mihai_Nicolae_CV.pdf).
-
-Thanks for reading and I hope you enjoy!
